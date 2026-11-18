@@ -22,6 +22,7 @@
         <li><a href=/filmout/filmsByYear>Pelis por año</a></li>
         <li><a href=/filmout/filmsByGenre>Pelis por genero</a></li>
         <li><a href=/filmout/sortFilmsYear>Ordenar las peliculas por orden descendiente</a></li>
+        <li><a href=/filmout/countFilm>Contador de Peliculas</a></li>
     </ul>
     <!-- Add Bootstrap JS and Popper.js (required for Bootstrap) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

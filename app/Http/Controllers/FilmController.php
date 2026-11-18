@@ -128,7 +128,6 @@ class FilmController extends Controller
     public function sortFilmsYear()
     {
 
-
         $title = "Ordenar las peliculas por orden descendiente";
         $films = FilmController::readFilms();
 
@@ -140,5 +139,16 @@ class FilmController extends Controller
 
 
         return view("films.list", ["films" => $films, "title" => $title]);
+    }
+
+    public function countFilm()
+    {
+
+        $title = "Contador de Peliculas";
+        $films = FilmController::readFilms();
+
+        $countFilms = count($films);
+
+        return view("films.count", ["count" => $countFilms, "title" => $title]);
     }
 }
